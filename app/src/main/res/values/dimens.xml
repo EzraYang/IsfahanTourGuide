@@ -4,4 +4,5 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
 
     <dimen name="test">140dp</dimen>
+    <dimen name="catagoryPaddingTop">40dp</dimen>
 </resources>
