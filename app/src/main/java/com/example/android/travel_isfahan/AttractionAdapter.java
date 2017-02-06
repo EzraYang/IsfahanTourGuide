@@ -17,11 +17,11 @@ import java.util.ArrayList;
 
 public class AttractionAdapter extends ArrayAdapter<Attraction> {
 
-//    private int mColorResourceId;
+    private int mColorResourceId;
 
-    public AttractionAdapter(Activity context, ArrayList<Attraction> attactions){
+    public AttractionAdapter(Activity context, ArrayList<Attraction> attactions, int colorResourceId){
         super(context, 0, attactions);
-        // mColorResourceId = ColorResourceId;
+         mColorResourceId = colorResourceId;
     }
 
     @NonNull
@@ -44,20 +44,9 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
         ImageView imageField = (ImageView) listItemView.findViewById(R.id.list_item_image);
         imageField.setImageResource(currentAttr.getmImageId());
 
-
-        // Set background color of the textView "text_container"
-//        View textContainer = listItemView.findViewById(R.id.text_container);
+//        View listItem = listItemView.findViewById(R.id.list_item);
 //        int color = ContextCompat.getColor(getContext(), mColorResourceId);
-//        textContainer.setBackgroundColor(color);
-//
-//        ImageView image = (ImageView) listItemView.findViewById(R.id.image);
-//
-//        if (currentWord.hasImage()){
-//            image.setImageResource(currentWord.getImageId());
-//        }
-//        else{
-//            image.setVisibility(View.GONE);
-//        }
+//        listItem.setBackgroundColor(color);
 
         return listItemView;
 

@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">Discover Isfahan</string>
 
+    <!--label of 4 catogories-->
+    <string name="lable_sight">Sights</string>
+    <string name="lable_shop">Shopping</string>
+    <string name="lable_hotel">Hotel</string>
+    <string name="lable_restaurant">Restaurant</string>
+
     <!--info of sight catagory-->
     <string name="sig1_name">Imam Square       </string>
     <string name="sig2_name">Sheikh Lotfollah Mosque</string>
