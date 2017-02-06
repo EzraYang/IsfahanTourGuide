@@ -3,4 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="colorSight">#c8cb00</color>
+    <color name="colorShop">#ee5a29</color>
+    <color name="colorHotel">#85b842</color>
+    <color name="colorRestaurant">#f18d30</color>
 </resources>
