@@ -25,16 +25,10 @@ public class Sight extends AppCompatActivity {
         sights.add(new Attraction(R.drawable.sig7, R.string.sig7_name, R.string.sig7_loc));
 
 
-        AttractionAdapter sightsAdapter = new AttractionAdapter(this, sights, R.color.colorSight);
+        AttractionAdapter sightsAdapter = new AttractionAdapter(this, sights);
 
         ListView listView = (ListView) findViewById(R.id.list);
 
         listView.setAdapter(sightsAdapter);
-
-
-
-
-
-
     }
 }

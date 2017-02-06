@@ -33,26 +33,26 @@
     <string name="shop6_name">Akhvan Fakhfouri</string>
 
     <string name="shop1_loc">Naqsh-e Jahan Square</string>
-    <string name="shop2_loc">Vahid Dastjerdi Highway | Across the South Entrance of Sepahan Shahr</string>
+    <string name="shop2_loc">Vahid Dastjerdi Highway</string>
     <string name="shop3_loc">Chahar Bagh Avenue</string>
-    <string name="shop4_loc">Hakim Nezami Street | Near Khaghani</string>
-    <string name="shop5_loc">Naqsh-e-Jahan Sq, Posht Matbakh St</string>
-    <string name="shop6_loc">No48 Chitsazha Bazar | Naqsh-e Jahan Square</string>
+    <string name="shop4_loc">Hakim Nezami Street</string>
+    <string name="shop5_loc">Naqsh-e-Jahan Sq</string>
+    <string name="shop6_loc">No48 Chitsazha Bazar</string>
 
 
     <!--info of hotels-->
     <string name="hot1_name">Iran Hotel</string>
     <string name="hot2_name">Tak-Taku Guesthouse</string>
-    <string name="hot3_name">Kianpour\’s Historical Residence</string>
+    <string name="hot3_name">Kianpour\’s Residence</string>
     <string name="hot4_name">Atigh Traditional Hotel</string>
     <string name="hot5_name">Bekhradi\’s Historical House</string>
     <string name="hot6_name">Venus Hotel</string>
 
-    <string name="hot1_loc">Chaharbagh Abbasi Avenue | Sepahan Lane #26</string>
-    <string name="hot2_loc">Jalali St | Toudeshk-Toudeshkcho</string>
+    <string name="hot1_loc">Chaharbagh Abbasi Avenue</string>
+    <string name="hot2_loc">Jalali St </string>
     <string name="hot3_loc">Gool - Edavodi Blind Alley</string>
     <string name="hot4_loc">Ebn-e-Sina St, Shohada Sq</string>
-    <string name="hot5_loc">Sonbolestan Alley, Ebn-E-Sina St, Shohada Sq</string>
+    <string name="hot5_loc">Ebn-E-Sina St, Shohada Sq</string>
     <string name="hot6_loc">Amadgah Street</string>
 
 
@@ -65,12 +65,11 @@
     <string name="res6_name">Romanos</string>
 
     <string name="res1_loc">Abbas Abad Street</string>
-    <string name="res2_loc">Chah Haj Mirza alley, Emam Sq</string>
-    <string name="res3_loc">Jolfa St.|Near the Vank Church</string>
-    <string name="res4_loc">Vank Church Alley | Jolfa</string>
-    <string name="res5_loc">Balgh Ghalandarha Alley / Hakim St</string>
-    <string name="res6_loc">Jolfa Square, Jolfa Bath House</string>
-
+    <string name="res2_loc">Chah Haj Mirza alley</string>
+    <string name="res3_loc">Jolfa St.</string>
+    <string name="res4_loc">Vank Church Alley </string>
+    <string name="res5_loc">Balgh Ghalandarha Alley</string>
+    <string name="res6_loc">Jolfa Bath House</string>
 
 
 </resources>

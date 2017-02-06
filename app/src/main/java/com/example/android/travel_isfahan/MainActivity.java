@@ -13,9 +13,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // set up sight intent
         ImageView sightEntrance = (ImageView) findViewById(R.id.sight);
-
-
         sightEntrance.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -24,6 +23,35 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // set up hotel intent
+        ImageView hotelEntrance = (ImageView) findViewById(R.id.hotel);
+        hotelEntrance.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent hotelIntent = new Intent(MainActivity.this, Hotel.class);
+                startActivity(hotelIntent);
+            }
+        });
+
+        // set up shopping intent
+        ImageView shoppingEntrance = (ImageView) findViewById(R.id.shopping);
+        shoppingEntrance.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent shoppingIntent = new Intent(MainActivity.this, Shopping.class);
+                startActivity(shoppingIntent);
+            }
+        });
+
+        // set up restaurant intent
+        ImageView restaurantEntrance = (ImageView) findViewById(R.id.restaurant);
+        restaurantEntrance.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent restaurantIntent = new Intent(MainActivity.this, Restaurant.class);
+                startActivity(restaurantIntent);
+            }
+        });
 
 
 

@@ -17,11 +17,8 @@ import java.util.ArrayList;
 
 public class AttractionAdapter extends ArrayAdapter<Attraction> {
 
-    private int mColorResourceId;
-
-    public AttractionAdapter(Activity context, ArrayList<Attraction> attactions, int colorResourceId){
+    public AttractionAdapter(Activity context, ArrayList<Attraction> attactions){
         super(context, 0, attactions);
-         mColorResourceId = colorResourceId;
     }
 
     @NonNull
@@ -43,10 +40,6 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
 
         ImageView imageField = (ImageView) listItemView.findViewById(R.id.list_item_image);
         imageField.setImageResource(currentAttr.getmImageId());
-
-//        View listItem = listItemView.findViewById(R.id.list_item);
-//        int color = ContextCompat.getColor(getContext(), mColorResourceId);
-//        listItem.setBackgroundColor(color);
 
         return listItemView;
 
